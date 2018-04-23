@@ -1,0 +1,85 @@
+Quick Quiz (Chapter 2-3)
+
+1. If you're using the ADT plug-in, running or debugging your application does the following EXCEPT:
+a. Starts the virtual device (if you've targeted one and it's not already running)
+b. Starts your application
+c. Packages the executable and your project's resources into any package you choose
+d. Compiles the current project and converts it to an Android executable
+
+Correct Answer: c
+Should Be: Packages the executable and your project's resources into an ANDROID package
+Page: 33
+
+2. Foreground is an application that's usefule only when it's in the foreground and is effectively suspended when it's not visible.
+a. True
+b. False
+
+Correct Answer: a
+Page: 36
+
+3. An application with limited interaction that, apart from when being configured, spends most of its lifetime hidden.
+a. intermittent
+b. widget
+c. live wallpapers
+d. background
+
+Correct Answer: d
+Page: 36
+
+4. An intermittent application does not need to be aware of its tate when interacting with the user.
+a. True
+b. False
+
+Correct Answer: b
+Page: 36
+
+5. In any case, it's importnat to minimize interaction costs by doing the following, EXCEPT:
+a. respecting the user's preferences for background data transfers
+b. transferring as much data as possible
+c. caching data and geocoding results to eliminate redundant or repetitive lookups
+d. Keeping the refresh/update rates for data transfers (and location lookups) as low as practicable 
+
+Correct Answer: b
+Should Be: Transferring as little data as possible
+Page: 41
+
+6. Activities are your application's presentation layer.
+a. True
+b. False
+
+Correct Answer: a
+Page: 54
+
+7. The invisible workers of your application are:
+a. Services
+b. Intents
+c. Widgets
+d. Content Providers
+
+Correct Answer: a
+Page: 54
+
+8. Widgets are shareable persisten data storage.
+a. True
+b. False
+
+Correct Answer: b
+Should Be: Content Providers are shareable persistent data storage
+Page: 55
+
+9. Used to specify typical mobile phone screens of at least HVGA, including WVGA and WQVGA.
+a. smallScreens
+b. normalScreens
+c. largeScreens
+d. xlargeScreens
+
+Correct Answer: b
+Page: 59
+
+10. A view animations is a tweened animation that can be used to potentially animate any property on the target obeject by applying incremental changes between two values. 
+a. True
+b. False
+
+Correct Answer: b
+Should Be: Property Animations
+Page: 70
